@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:layout_marginTop="10dp"
+    android:padding="8dp"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:background="@drawable/loading_shape"
+        android:id="@+id/img_thumb"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/movie_title"
+            android:text="Movie Title"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/movie_year"
+            android:padding="3dp"
+            android:layout_marginTop="5dp"
+            android:text="Movie Year"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rating"
+            android:padding="3dp"
+            android:paddingRight="8dp"
+            android:text="0.0"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:background="@drawable/rating_background"
+            android:drawableLeft="@drawable/ic_star_gold_24dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/rel_date"
+            android:text="Released Date"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/name_director"
+            android:text="Director"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/runtime"
+            android:text="Run Time"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/language"
+            android:text="Language"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
